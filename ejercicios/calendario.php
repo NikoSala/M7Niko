@@ -58,13 +58,13 @@
 		
 	</h1>
 </div>
-	<h3>Niko Sala ASW2</h3>
+	
 	<table id="calendario" style="margin: 0 auto;">
 		<div style="text-align: center;">
 		<caption><?php echo $meses[$mes]." ".$año?></caption>
 		<tr>
-			<th>Lun</th><th>Mar</th><th>Mie</th><th>Jue</th>
-			<th>Vie</th><th>Sab</th><th>Dom</th>
+			<th>Lunes</th><th>Martes</th><th>Miercoles</th><th>Jueves</th>
+			<th>Viernes</th><th>Sabado</th><th>Domingo</th>
 		</tr>
 		<tr>
 
