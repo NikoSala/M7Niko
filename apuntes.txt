@@ -1,0 +1,51 @@
+
+$nombredelaarray = array(“indice” => “valor”,”otroindice”=>”otrovalor”….);
+$arrayfrutas = array("caca" => "manzana", "pis" => "banana")
+$array1 = array(1 => "manzana", "banana")
+$array2 = array("manzana", "banana")
+
+
+Comparación:
+$var1 == $var2 Compara si las dos variables son iguales.
+$var1 === $var2 Compara si las dos variables son iguales y del mismo tipo(se dice que son IDENTICAS).
+$var1 $var2 Compara si las dos variables son diferentes (igual que el siguiente).
+$var1 != $var2 Compara si la las dos variables son diferentes.
+$var1 !== $var2 Compara si las dos variables son no idénticas.
+$var1 > $var2 Compara si la var1 es mayor a la variable var2.
+$var1 < $var2 Compara si la var1 es menor a la variable var2.
+$var1 = $var2 Compara si la variable var1 es mayor o igual a la variable var2.
+
+
+Lógicos
+$var1 && $var2 Se cumple si ambas variables cumplen la condición.
+$var1 || $var2 Se cumple si una de las variables cumple la condición o ambas lo hacen.
+!$var1 Niega var1 , Se cumple si la variable no es true.
+$var1 xor $var2 Se cumple si una de las variables cumple la condición.
+$var1 and $var2 Se cumple si ambas variables cumplen la condición.
+$var1 or $var2 Se cumple si una de las variables cumple la condición o ambas lo hacen.
+
+
+gettype muestra que tipo de variable es.
+
+para concatenar cadenas se usa el .
+
+$variable = new DataTime(); crea la fecha de sistema
+ 
+
+$valor = 4;
+$primo = 0;
+	for($b = 1;$b < $valor; $b++){
+        if($valor % $b == 0){
+            $primo++;
+        }
+    }
+    if($primo >= 2 ){
+        echo " No es primo";
+	        for($i=1;$i<=$valor;$i++){
+            if($valor%$i==0){
+            echo "<br>$i, es divisor ";
+            }
+        }
+    } else {
+        echo " Es primo";
+    }
